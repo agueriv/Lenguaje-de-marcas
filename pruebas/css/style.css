@@ -1,0 +1,42 @@
+.header {
+	background: url("../img/header.jpg");
+	padding-top: 100px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 200px;
+	width: 100%;
+	color: #ffff;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.main {
+	text-align: center;
+	margin: auto;
+	padding-top: 50px;
+	max-width: 1200px;
+}
+
+#iframe-video-mapa {
+	margin: auto;
+	text-align: center;	
+}
+
+.enlace-video {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	color: #2cdf;
+	text-align: center;
+}
+
+.enlace-video:hover {
+	color: #c63;
+	transform: scale(1.1);
+}
+
+th, td {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;	
+}
