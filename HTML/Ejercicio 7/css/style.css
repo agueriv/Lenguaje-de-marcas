@@ -1,0 +1,47 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.general {
+	margin: auto;
+	width: 50%;
+}
+
+.header {
+	width: 100%;
+	text-align: center;
+	border: solid 1px black;
+	margin-bottom: 8px;
+}
+.header h2 {
+	font-size: 18px;
+	font-weight: 400;
+}
+.header h1 {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.container div {
+	border: solid 1px black;
+	padding: 30px;
+}
+
+.container {
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+		width: 100%;
+}
+
+.container > div {
+		width: 50%;
+}
+
+.columna-izq {
+	margin-right: 3px;
+}
+
+.columna-der {
+	margin-left: 3px;
+}
