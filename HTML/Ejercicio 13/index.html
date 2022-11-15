@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Formulario | Ariel Guerrero</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body style="font-family: 'Helvetica'">
+		<h1>TELEBIRRA</h1>
+		<h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+		<form style="width: 700px;">
+			<fieldset>
+				<legend><b>Datos personales y de envío</b></legend>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" value="" size="20"><br>
+				<label for="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" value="" size="40"><br>
+				<label for="domicilio">Domicilio</label>
+				<input type="text" name="domicilio" value=""><br>
+				<label for="localidad">Localidad</label>
+				<input type="text" name="localidad" value=""><br>
+				<label for="cp">Código Postal</label>
+				<input type="text" name="cp" value="" size="5"><br>
+				<label for="tlf">Teléfono</label>
+				<input type="text" name="tlf" value="" size="9">
+			</fieldset>
+			<fieldset>
+				<legend><b>Elija la opción de entrega</b></legend>
+				<input type="radio" id="local" name="envio" value="">
+				<label for="local">Recoger en el local</label><br>
+				<input type="radio" id="domicilio" name="envio" value="">
+				<label for="domicilio">Enviar a domicilio</label>
+			</fieldset>
+			<fieldset>
+				<legend><b>¿Quiere que le enviemos nuestras ofertas?</b></legend>
+				<input type="checkbox" id="casa" name="ofertas" value="">
+				<label for="casa">Enviar al domicilio</label><br>
+				<input type="checkbox" id="email" name="ofertas" value="">
+				<label for="email">Enviar por email</label>
+			</fieldset>
+			<fieldset>
+				<legend><b>Elija su menú</b></legend>
+				<label for="tamaño" >Tamaño del bocadillo</label><br>
+				<select id="tamaño" name="tamaño">
+					<option value="pequeño">Pequeño</option>
+					<option value="mediano">Mediano</option>
+					<option value="grande">Grande</option>
+					<option value="enorme">Enorme</option>
+				  </select><br>
+				  <label for="contenido">Contenido del bocadillo</label><br>
+				  <select id="contenido" name="contenido" size="4">
+					  <option value="anchoa">Anchoa</option>
+					  <option value="salami">Salami</option>
+					  <option value="chorizo">Chorizo</option>
+					  <option value="calamare">Calamare</option>
+					  <option value="mejillone">Mejillone</option>
+					  <option value="jamon">Jamon</option>
+				  </select><br>
+				  <label for="sugerencias">Puede añadir alguna sugerencia</label><br>
+				  <textarea rows="10" cols="80" placeholder="Por ejemplo que calienten el pan, etc."></textarea>
+			</fieldset>
+			<button type="submit">Enviar datos</button>
+		</form>
+	</body>
+</html>
