@@ -1,0 +1,33 @@
+h1 {
+	color: red;
+	font-size: 4em;
+}
+
+h2 {
+	color: red;
+	font-size: 3em;
+}
+
+h3 {
+	color: red;
+	font-size: 2em;
+}
+
+/* Vamos a continuar con el apartado 2 */
+/*
+En la primera regla vamos a coger un parrafo de texto para darle mas espaciado a cada caracter, le vamos a cambiar la tipografía y su peso y por último centramos todo el párrafo
+*/
+.parrafo {
+	letter-spacing: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*
+En la regla 2 vamos a darle un alto de 200px a un div vacio con un fondo verde clarito
+*/
+.caja {
+	height: 200px;
+	background-color: lightgreen;
+}
