@@ -1,0 +1,49 @@
+#cabecera {
+	width: 100%;
+	background-color: rgb(246, 246, 246);
+	text-align: center;
+	padding: 0.1em;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2em;
+}
+
+#cabecera > h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#izquierda {
+	float: left;
+	width: 20%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	background-color: rgb(159, 123, 202);
+}
+
+.menu {
+	padding: 0.7em;
+	border: 1px solid #ffffff;
+	margin: 0.3em;
+}
+.menu:hover {
+	border-color: black;
+}
+
+.menu > a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 1.2em;
+}
+.menu > a:hover {
+	color: black;
+}
+
+#derecha {
+	float: right;
+	width: 75%;
+	background-color: rgb(43, 176, 226);
+	padding: 1.5em;
+}
