@@ -1,0 +1,28 @@
+p {
+	border: 5px solid black;
+}
+
+#p1 {
+	border-color: green;
+	background-color: rgb(100, 221, 187);
+	margin: 0px;
+	padding: 0px;
+}
+
+#p2 {
+	border-color: red;
+	background-color: rgb(246, 138, 138);
+	margin: 5px;
+	padding: 5px;
+}
+
+#p3 {
+	border-color: rgb(0, 128, 255);
+	background-color: rgb(141, 196, 250);
+	margin: 0px;
+	padding: 20px;
+}
+
+body {
+	margin: 0px;
+}
