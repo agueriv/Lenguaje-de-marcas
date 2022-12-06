@@ -8,7 +8,7 @@
 	margin-bottom: 2em;
 }
 
-#cabecera > h1 {
+#cabecera h1 {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,13 +31,13 @@
 	border-color: black;
 }
 
-.menu > a {
+.menu a {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	font-size: 1.2em;
 }
-.menu > a:hover {
+.menu a:hover {
 	color: black;
 }
 
@@ -46,4 +46,112 @@
 	width: 75%;
 	background-color: rgb(43, 176, 226);
 	padding: 1.5em;
+}
+
+#gavi-inicio {
+	float: right;
+	width: 25%;
+	margin-left: 2em;
+}
+#gavi-inicio img{
+	width: 100%;
+	border-radius: 1em;
+}
+#gavi-inicio h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#raul-inicio {
+	float: left;
+	width: 25%;
+	margin-right: 2em;
+}
+#raul-inicio  img{
+	width: 100%;
+	border-radius: 1em;
+}
+#raul-inicio h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#equipo-bfc {
+	float: left;
+	width: 40%;
+	margin-right: 2em;
+}
+#equipo-bfc  img{
+	width: 100%;
+	border-radius: 1em;
+}
+#equipo-bfc h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#logo-bfc {
+	float: right;
+	width: 15%;
+	margin-right: 2em;
+}
+#logo-bfc  img{
+	width: 100%;
+	border-radius: 1em;
+}
+#logo-bfc h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#equipo-rm {
+	float: left;
+	width: 40%;
+	margin-right: 2em;
+}
+#equipo-rm  img{
+	width: 100%;
+	border-radius: 1em;
+}
+#equipo-rm h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#logo-rm {
+	float: right;
+	width: 15%;
+	margin-left: 2em;
+}
+#logo-rm  img{
+	width: 100%;
+	border-radius: 1em;
+}
+#logo-rm h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
 }
