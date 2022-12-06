@@ -1,0 +1,17 @@
+#capa1 {
+	width: 50%;
+	border: 2px solid black;
+	font-size: 100%;
+}
+
+#capa2 {
+	width: 33.33333333%;
+	border: 2px solid red;
+	font-size: 120%;
+}
+
+#capa3 {
+	width: 25%;
+	border: 2px solid rgb(0, 109, 255);
+	font-size: 80%;
+}
