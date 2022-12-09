@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#cabecera {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: brown;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	color: white;
+	margin-bottom: 1em;
+}
+
+#nav {
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em; 
+}
+#nav ul {
+	list-style-type: none;
+	font-size: 1.3em;
+	text-align: center;
+}
+#nav ul li {
+	display: inline;
+	padding: 1em;
+}
+#nav ul li a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	color: rgb(175, 90, 175);
+	font-weight: 600;
+	border: 3px solid rgb(175, 90, 175);
+	border-radius: 1em;
+	padding: 0.3em;
+}
+#nav ul li a:hover {
+	color: white;
+	background-color: rgb(175, 90, 175);
+}
+
+#content {
+	padding: 1em;
+	background-color: rgb(208, 157, 220);
+	margin-bottom: 1em;
+	font-family: 'Comic Sans', sans-serif;
+	height: 25em;
+	overflow-y: scroll;
+}
+#content p {
+	margin-bottom: 1em;
+}
+
+#foto1 {
+	float: left;
+	width: 40%;
+	margin-right: 2em;
+}
+#foto1 img{
+	width: 100%;
+	border-radius: 1em;
+}
+#foto1 h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9em;
+}
+
+#footer {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: rgb(205, 203, 203);
+	background-color: rgb(77, 77, 77);
+}
