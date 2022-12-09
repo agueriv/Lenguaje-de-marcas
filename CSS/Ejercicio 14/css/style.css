@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#cabecera {
+	width: 100%;
+	text-align: center;
+	font-family: 'Montserrat';
+	color: rgb(195, 193, 193);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: rgb(96, 93, 93);
+}
+
+#nav {
+	float: left;
+	width: 20%;
+	background: grey;
+}
+#nav ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0.4em;
+}
+#nav ul li {
+	padding: 1em;
+	border: 1px solid white;
+	margin-bottom: 0.5em;
+	border-radius: 1em;
+	box-shadow: 2px 2px 6px 0px rgba(89, 85, 85, 0.75);
+}
+#nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat';
+	font-size: 1.1em;
+}
+#nav ul li a:visited {
+	color: rgb(138, 229, 138);
+}
+#nav ul li a:link {
+	color: white;
+}
+#nav ul li a:hover {
+	color: rgb(246, 74, 74);
+	font-weight: 700;
+	font-style: italic;
+}
+#nav ul li a:active {
+	color: rgb(0, 148, 255);
+}
+
+#nav p {
+	padding: 1em;
+	text-align: justify;
+	color: rgb(224, 224, 224);
+}
+
+#content {
+	float: right;
+	width: 78%;
+	padding: 0.5em;
+}
+#content p {
+	margin-bottom: 1em;
+}
+
+#footer {
+	clear: both;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: 'Montserrat';
+	background-color: rgb(96, 93, 93);
+	color: rgb(195, 193, 193);
+}
