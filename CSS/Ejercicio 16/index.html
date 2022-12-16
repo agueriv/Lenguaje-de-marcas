@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Ejercicio 16 | Ariel Guerrero Rivas</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<form>
+			<div id="cabecera">
+				<h1>TELEBIRRA</h1>
+				<h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+			</div>
+			<div id="registro">
+				<p>Si es ya cliente introduzca su nombre de usuario y contraseña</p>
+				<label for="usuario">Usuario</label>
+				<input type="text" name="usuario" value="" size="10">
+				<label for="clave">Clave</label>
+				<input type="text" name="clave" value="" size="10">
+				<button>Conectar</button>
+			</div>
+			<div id="datos">
+				<fieldset>
+					<legend><b>Datos personales y de envío</b></legend>
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" value="" size="20"><br><br>
+					<label for="apellidos">Apellidos</label>
+					<input type="text" name="apellidos" value="" size="30"><br><br>
+					<label for="domicilio">Domicilio</label>
+					<input type="text" name="domicilio" value=""><br><br>
+					<label for="localidad">Localidad</label>
+					<input type="text" name="localidad" value=""><br><br>
+					<label for="cp">Código Postal</label>
+					<input type="text" name="cp" value="" size="5"><br><br>
+					<label for="tlf">Teléfono</label>
+					<input type="text" name="tlf" value="" size="9">
+				</fieldset>
+				<fieldset>
+					<legend><b>Elija la opción de entrega</b></legend>
+					<input type="radio" id="local" name="envio" value="">
+					<label for="local">Recoger en el local</label><br><br>
+					<input type="radio" id="domicilio" name="envio" value="">
+					<label for="domicilio">Enviar a domicilio</label>
+				</fieldset>
+				<fieldset>
+					<legend><b>¿Quiere que le enviemos nuestras ofertas?</b></legend>
+					<input type="checkbox" id="casa" name="ofertas" value="">
+					<label for="casa">Enviar al domicilio</label><br><br>
+					<input type="checkbox" id="email" name="ofertas" value="">
+					<label for="email">Enviar por email</label>
+				</fieldset>
+			</div>
+			<div id="menu">
+				<fieldset>
+					<legend><b>Elija su menú</b></legend>
+					<label for="tamaño">Tamaño del bocadillo</label><br><br>
+					<select id="tamaño" name="tamaño">
+						<option value="pequeño">Pequeño</option>
+						<option value="mediano">Mediano</option>
+						<option value="grande">Grande</option>
+						<option value="enorme">Enorme</option>
+					</select><br>
+					<label for="contenido">Contenido del bocadillo</label><br>
+					<select id="contenido" name="contenido" size="4">
+						<option value="anchoa">Anchoa</option>
+						<option value="salami">Salami</option>
+						<option value="chorizo">Chorizo</option>
+						<option value="calamare">Calamares</option>
+						<option value="mejillone">Mejillones</option>
+						<option value="jamon">Jamon</option>
+					</select><br>
+					<label for="sugerencias">Puede añadir alguna sugerencia</label><br><br>
+					<textarea rows="10" cols="80" placeholder="Por ejemplo que calienten el pan, etc."></textarea>
+				</fieldset>
+			</div>
+			<div id="pie">
+				Para enviar el pedido ahora pulse el boton <button type="submit">Enviar datos</button><br><br>
+				Si quiere comenzar de nuevo pulse el botón <button type="reset">Borrar todo</button>
+			</div> 
+		</form>
+	</body>
+</html>
