@@ -1,0 +1,52 @@
+#tarjeta {
+	width: 30%;
+	margin: auto;
+	background-color: #F2F2F2;
+	height: 180px;
+	padding: 2em;
+	border-radius: 50px;
+}
+
+#imagen {
+	float: left;
+	width: 30%;
+}
+#imagen img{
+	width: 100%;
+	border-radius: 50px;
+}
+
+#contenido {
+	float: right;
+	width: 70%;
+}
+#contenido button {
+	float: right;
+	display: block;
+	margin-bottom: 1em;
+	border-radius: 8px;
+}
+#contenido h1 {
+	font-family: 'Montserrat';
+	font-size: 1em;
+	text-align: center;
+	margin-top: 1.5em;
+}
+#contenido p {
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+	padding-right: 4em; 
+}
+
+ul {
+	padding-right: 3em;
+}
+ul li {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 1em;
+	border-radius: 50%;
+	background: #BB5681;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
