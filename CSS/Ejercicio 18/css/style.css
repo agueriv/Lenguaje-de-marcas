@@ -71,9 +71,12 @@ ul li {
 	float: right;
 }
 
+#down {
+	clear: both;
+}
+
 #tarjetas {
-	padding-left: 10em;
-	padding-right: 10em;
+	width: 75%;
 	margin: auto;
 }
 
